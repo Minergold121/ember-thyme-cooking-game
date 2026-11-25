@@ -1,0 +1,20 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #f7ead0;
+  color: #3b2a10;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.wrap { max-width: 1300px; margin: 0 auto; padding: 12px 10px 24px; }
+h1 { margin: 4px 0; font-size: 28px; color: #7a3b00; }
+.tag { margin: 0 0 10px; color: #7a5a12; }
+canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #fdf3d8;
+  border: 3px solid #8a7a5c;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.help { color: #6b5a35; font-size: 14px; line-height: 1.5; }
